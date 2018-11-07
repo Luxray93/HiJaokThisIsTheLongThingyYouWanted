@@ -90,7 +90,7 @@ public class BigboieFysikgrej {
 		double velocitytoheight = velocity/2/9.82;
 		return velocitytoheight;
 	}
-	// big
+	// big boi Jaok plz no spank for not being done my excuse is being lazy
 }
 
 
