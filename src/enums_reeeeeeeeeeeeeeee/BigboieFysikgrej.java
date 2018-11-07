@@ -2,9 +2,7 @@ package enums_reeeeeeeeeeeeeeee;
 
 public class BigboieFysikgrej {
 	public static void main(String[] args) {
-		double deeep = 10;
-		double fluidpressure=0;
-		System.out.println(fluidpressure);
+		
 	}
 	
 
@@ -20,11 +18,12 @@ public class BigboieFysikgrej {
 		return celsius;
 	}
 
-	public static double fluidpressure(fluids_reee fluid, double deep, double fluidpressure) {
-		return fluidpressure = fluid.density * 9.82 * deep;
+	public static double fluidpressure(fluids_reee fluid, double deep) {
+		double fluidpressure = fluid.density * 9.82 * deep;
+		return fluidpressure;
 	}
 	public static double pressureunderwater(double deep) {
-		double pressureunderwater = 997*9.82*deep;
+		double pressureunderwater = 998*9.82*deep;
 		return pressureunderwater;
 	}
 	public static double kineticenergy(double mass, double velocity) {
@@ -35,6 +34,52 @@ public class BigboieFysikgrej {
 		double potentialenergy = mass*height*9.82;
 		return potentialenergy;
 	}
-	
+	public static double fallspeed(double height) {
+		double fallspeed = 9.82*2*height;
+		return fallspeed;
+	}
+	public static double delta(double first, double last) {
+		double delta = first-last;
+		return delta;
+	}
+	public static double volumetomass(fluids_reee fluids, double volume) {
+		double volumetomass = fluids.WATER.density*1000*volume;
+		return volumetomass;
+	}
+	public static double volumetomass2(gases_reee gases, double volume) {
+		double volumetomass2 = gases_reee.AIR.density*volume;
+		return volumetomass2;
+	}
+	public static double volumetomass3(solids_reee solids, double volume) {
+		double volumetomass3 = solids_reee.IRON.density*1000*volume;
+		return volumetomass3;
+	}
+	public static double svtvelocity(double distance, double time) {
+		double svtvelocity = distance/time;
+		return svtvelocity;
+	}
+	public static double svtdistance(double velocity, double time) {
+		double svtdistance = velocity*time;
+		return svtdistance;
+	}
 	// big
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
