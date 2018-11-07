@@ -62,6 +62,18 @@ public class BigboieFysikgrej {
 		double svtdistance = velocity*time;
 		return svtdistance;
 	}
+	public static double svtime(double distance, double velocity) {
+		double svtime = distance/velocity;
+		return svtime;
+	}
+	public static double work(double force, double distance) {
+		double work = force*distance;
+		return work;
+	}
+	public static double power(double work, double time) {
+		double power = work/time;
+		return power;
+	}
 	// big
 }
 
