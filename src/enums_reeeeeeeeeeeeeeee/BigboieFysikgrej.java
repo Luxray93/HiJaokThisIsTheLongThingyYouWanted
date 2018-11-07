@@ -83,7 +83,12 @@ public class BigboieFysikgrej {
 		return heat2;
 	}
 	public static double heat3(gases_reee gases, double mass, double deltaT) {
-		
+		double heat3 = gases.heatCapacity*mass*deltaT;
+		return heat3;
+	}
+	public static double velocitytoheight(double velocity) {
+		double velocitytoheight = velocity/2/9.82;
+		return velocitytoheight;
 	}
 	// big
 }
