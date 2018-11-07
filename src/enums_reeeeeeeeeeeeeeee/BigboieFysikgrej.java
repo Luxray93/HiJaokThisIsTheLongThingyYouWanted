@@ -74,6 +74,11 @@ public class BigboieFysikgrej {
 		double power = work/time;
 		return power;
 	}
+	public static double heat(solids_reee solids, double mass, double deltaT) {
+		double heat = solids.heatCapacity*mass*deltaT;
+		return heat;
+	}
+	
 	// big
 }
 
