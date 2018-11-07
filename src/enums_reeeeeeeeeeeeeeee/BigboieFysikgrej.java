@@ -2,7 +2,9 @@ package enums_reeeeeeeeeeeeeeee;
 
 public class BigboieFysikgrej {
 	public static void main(String[] args) {
-		
+		double deeep = 10;
+		double fluidpressure=0;
+		System.out.println(fluidpressure);
 	}
 	
 
@@ -18,9 +20,8 @@ public class BigboieFysikgrej {
 		return celsius;
 	}
 
-	public static double fluidpressure(fluids_reee fluid, double deep) {
-		double fluidpressure = fluid.density * 9.82 * deep;
-		return fluidpressure;
+	public static double fluidpressure(fluids_reee fluid, double deep, double fluidpressure) {
+		return fluidpressure = fluid.density * 9.82 * deep;
 	}
 	public static double pressureunderwater(double deep) {
 		double pressureunderwater = 997*9.82*deep;
@@ -34,5 +35,6 @@ public class BigboieFysikgrej {
 		double potentialenergy = mass*height*9.82;
 		return potentialenergy;
 	}
+	
 	// big
 }
