@@ -78,7 +78,13 @@ public class BigboieFysikgrej {
 		double heat = solids.heatCapacity*mass*deltaT;
 		return heat;
 	}
-	
+	public static double heat2(fluids_reee fluids, double mass, double deltaT) {
+		double heat2 = fluids.heatCapacity*mass*deltaT;
+		return heat2;
+	}
+	public static double heat3(gases_reee gases, double mass, double deltaT) {
+		
+	}
 	// big
 }
 
